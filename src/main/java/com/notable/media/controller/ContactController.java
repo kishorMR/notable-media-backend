@@ -12,7 +12,7 @@ import com.notable.media.service.EmailService;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://notable-media-frontend.onrender.com")
 public class ContactController {
 
     @Autowired
